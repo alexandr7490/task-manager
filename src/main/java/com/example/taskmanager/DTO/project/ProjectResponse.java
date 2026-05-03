@@ -19,8 +19,8 @@ public class ProjectResponse {
     private String title;
     private String description;
 
-    private List<UserShortResponse> users;     // участники проекта
-
+    private List<UserShortResponse> users;
+    private List<UserShortResponse> tasks;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 }

@@ -19,7 +19,7 @@ public class TaskResponse {
     private String description;
     private TaskStatus status;
 
-    private UserResponse assignee;//можно сделать короткий ответ
+    private UserResponse assignee;
 
     private Long projectId;
     private String projectTitle;
